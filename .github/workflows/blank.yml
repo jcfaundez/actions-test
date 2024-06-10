@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   call-workflow-passing-data:
-    uses: jcfaundez/actions-test/.github/workflows/reusable-workflow.yml@main
+    uses: .github/workflows/reusable-workflow.yml@main
